@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: att1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/att1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\CompGraph project\att1\try1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/att1.pdb" /debug /machine:I386 /out:"Debug/att1.exe" /pdbtype:sept  ".\Debug\try1.obj" ".\Debug\Script1.res" "
+<h3>Output Window</h3>
+Compiling...
+try1.cpp
+E:\CompGraph project\att1\try1.cpp(382) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(395) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(397) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(399) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(410) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(411) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(426) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(427) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(446) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(447) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(449) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(451) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(452) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(454) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(457) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(458) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(460) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(465) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(466) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(468) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(471) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(472) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(474) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(530) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(565) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(589) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(590) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(624) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(625) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(627) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(628) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(630) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(631) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(633) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(634) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\CompGraph project\att1\try1.cpp(651) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(652) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(666) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(667) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(681) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\CompGraph project\att1\try1.cpp(609) : warning C4101: 'buf' : unreferenced local variable
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/att1.ilk"; linking nonincrementally
+
+
+
+<h3>Results</h3>
+att1.exe - 0 error(s), 42 warning(s)
+</pre>
+</body>
+</html>

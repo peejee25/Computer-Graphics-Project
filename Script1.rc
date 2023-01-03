@@ -1,0 +1,201 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Input",                      101
+    POPUP "&Output"
+    BEGIN
+        MENUITEM "&Graph",                      102
+        MENUITEM "&Model Visualization",        103
+    END
+    MENUITEM "&Help",                       104
+    MENUITEM "&About",                      105
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 235, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input Menu"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,207,42,13
+    PUSHBUTTON      "Cancel",IDCANCEL,119,207,42,13
+    EDITTEXT        IDC_EDIT1,133,34,27,12,ES_AUTOHSCROLL
+    LTEXT           "Mass of the Cart (Kgs.)",IDC_STATIC,22,34,91,11
+    LTEXT           "Length of Pendulum (m)",IDC_STATIC,22,65,89,10
+    LTEXT           "Mass of the Pendulum (Kgs)",IDC_STATIC,22,50,100,9
+    EDITTEXT        IDC_EDIT4,133,79,27,12,ES_AUTOHSCROLL
+    LTEXT           "Starting angle(wrt Vertical)",IDC_STATIC,21,80,111,10
+    LTEXT           "Please Enter All The Values Correctly",IDC_STATIC,14,14,
+                    141,13
+    EDITTEXT        IDC_EDIT5,133,94,27,12,ES_AUTOHSCROLL
+    LTEXT           "Starting velocity of the pendulum",IDC_STATIC,22,95,109,
+                    11
+    LTEXT           "-15 to 15",IDC_STATIC,163,81,30,11
+    LTEXT           "-10 to 10 m/s",IDC_STATIC,163,95,43,11
+    LTEXT           "< 10m",IDC_STATIC,162,65,32,11
+    LTEXT           "< 20 kgs",IDC_STATIC,162,35,31,11
+    LTEXT           "< 0.5*Cart mass",IDC_STATIC,162,51,58,10
+    EDITTEXT        IDC_EDIT2,133,49,27,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,133,64,27,12,ES_AUTOHSCROLL
+    LTEXT           "Enter the step size of velocity of car (ie by what minimum unit the velocity can vary)",
+                    IDC_STATIC,14,111,206,17
+    EDITTEXT        IDC_EDIT6,61,133,31,14,ES_AUTOHSCROLL
+    LTEXT           "Step size",IDC_STATIC,21,135,33,10
+    LTEXT           "m/s (0 for arbitrarily small step size)",IDC_STATIC,98,
+                    135,121,10
+    LTEXT           "Maximum possible acceleration of the vehicle",
+                    IDC_STATIC,22,164,124,18
+    EDITTEXT        IDC_EDIT7,152,164,31,14,ES_AUTOHSCROLL
+    LTEXT           "Maximum posible velocity of the cart",IDC_STATIC,21,185,
+                    124,16
+    EDITTEXT        IDC_EDIT8,152,181,31,15,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 186, 159
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,64,132,50,14
+    LTEXT           "This Project has been created in partial Fulfilments of the requirements of the course Computer Graphics Year 2002-03",
+                    IDC_STATIC,24,61,139,26
+    LTEXT           "Under the Guidance Of: Mukesh Kr. Rohil",IDC_STATIC,25,
+                    96,136,14
+    LTEXT           "By: Prashant Ganesh      Id: 2000B4C6793",IDC_STATIC,25,
+                    113,142,12
+    CONTROL         104,IDC_STATIC,"Static",SS_BITMAP,75,23,24,24
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 234, 272
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Help"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,84,244,50,14
+    CONTROL         104,IDC_STATIC,"Static",SS_BITMAP,100,37,24,24
+    CTEXT           "This Program Visualizes the Fuzzy Logic Based Vehicle Controller to Balance the Pendulum in a upright position.",
+                    IDC_STATIC,17,69,190,20
+    LTEXT           "Visualization  of Fuzzy logic Based Vehicle Controller",
+                    IDC_STATIC,28,17,179,17
+    LTEXT           "The user Has to input various parameters which will be asked in input menu. The user has two choices to visualise the performance of the controller. One can see the graph showing the performance or the runtime model itself can be visualised.",
+                    IDC_STATIC,21,157,172,47
+    LTEXT           "Thanks for taking help !",IDC_STATIC,20,219,141,17
+    LTEXT           "The main aim of the this problem is to implement and visualize the performance of the controller. The pendulum has a initial angle w.r.t verticle and an initial angular momentum. The fuzzy logic based controller drives the cart at a velocity depending upon the inputs so that the pendulum is balanced in a upright position.",
+                    IDC_STATIC,21,99,183,51
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
